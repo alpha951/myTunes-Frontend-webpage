@@ -1,0 +1,347 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+
+  overflow-x: hidden; /* Hide scrollbar in X*/
+}
+.navbar {
+  background-color: #333;
+  color: aliceblue;
+  font-family: "PT Sans", sans-serif;
+  margin: 0;
+  width: 100%;
+  font-size: 50px;
+  overflow: hidden;
+  top: 0;
+
+  position: fixed;
+  /* FIX */
+  z-index: 300;
+}
+nav ul {
+  list-style: none;
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+  /* position: fixed;
+  overflow: auto; */
+}
+nav li {
+  float: left;
+  margin: 14px 30px;
+  display: list-item;
+  padding: 25px;
+  
+}
+nav ul li:hover{
+  box-shadow: 0 4px 8px 0 rgba(255, 253, 253, 0.2), 0 6px 20px 0 rgba(238, 232, 232, 0.19);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-shadow: 2px 2px;
+ 
+  
+}
+.showcase {
+  background-image: url(showcase.jpeg);
+  height: 2200px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: "PT Sans", sans-serif;
+}
+div h1 {
+  font-size: 200px;
+  display: block;
+  margin-block-start: 3em;
+  margin-block-end: 3em;
+}
+div h3 {
+  font-size: 100px;
+}
+.para {
+  text-align: center;
+  font-size: 56px;
+  width: 50%;
+  margin-left: 1140px;
+  margin-top: 44px;
+  line-height: 1.8em;
+}
+.heading {
+  margin: 0px;
+  padding-top: 600px;
+}
+
+.mockup1 {
+  margin: 0;
+  background-color: #252529;
+  /* background-image: url(mockup1.png); */
+  height: 3600px;
+  background-repeat: no-repeat;
+  font-family: "PT Sans", sans-serif;
+}
+#mockup1H2 {
+  margin: 0;
+  padding-top: 90px;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+}
+#mockup1H3 {
+  margin: 0;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  padding-top: 80px;
+}
+#mockup1Para {
+  text-align: center;
+  font-size: 65px;
+  width: 50%;
+  /* display:block; */
+  /* height: 8px; */
+  line-height: 1.8em;
+  color: #fff;
+  margin-left: 1140px;
+  margin-top: 54px;
+}
+#mockup1Button {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  background-color: #b90415;
+  margin-top: 100px;
+  padding: 40px 25px;
+  width: 13%;
+  border-radius: 5px;
+
+  margin-left: 43%;
+  margin-right: 50%;
+}
+#mockup1SmallPara {
+  text-align: center;
+  font-size: 45px;
+  width: 50%;
+  /* display:block; */
+  /* height: 8px; */
+  line-height: 1.8em;
+  color: #fff;
+  margin-left: 1140px;
+  margin-top: 54px;
+}
+
+#imgMockup1 {
+  height: 2000px;
+  width: 4000px;
+  position: relative;
+  left: 350px;
+  display: block;
+}
+.mockup2 {
+  margin: 0;
+  background-color: #f2f2f7;
+  /* background-image: url(mockup1.png); */
+  height: 4200px;
+  background-repeat: no-repeat;
+  font-family: "PT Sans", sans-serif;
+}
+#mockup2H2 {
+  margin: 0;
+  padding-top: 90px;
+  font-size: 100px;
+  color: rgb(17, 1, 1);
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+}
+#mockup2Para {
+  text-align: center;
+  font-size: 65px;
+  width: 50%;
+  /* display:block; */
+  /* height: 8px; */
+  line-height: 1.8em;
+  color: rgb(10, 1, 1);
+  margin-left: 1140px;
+  margin-top: 54px;
+}
+#mockup2Btn {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  background-color: #143f85;
+  margin-top: 100px;
+  padding: 40px 25px;
+  width: 8%;
+  border-radius: 5px;
+
+  margin-left: 43%;
+  margin-right: 50%;
+}
+#mockup2Img {
+  height: 2800px;
+  width: 3400px;
+  position: relative;
+  left: 600px;
+  display: block;
+  padding-top: 15px;
+}
+.section {
+  /* display: inline-block; */
+  height: 1700px;
+  /* width: 100%; */
+  background-image: url(section-bg.jpeg);
+  background-size: 100% 100%;
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  margin: 0;
+  /* text-align: center; */
+  /* position: relative; */
+  font-family: "PT Sans", sans-serif;
+}
+#sectionH2 {
+  margin: 0;
+  padding-top: 600px;
+  font-size: 100px;
+  color: rgb(248, 248, 248);
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+}
+#sectionPara {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  padding-top: 50px;
+  width: 50%;
+  height: 0px;
+
+  /* height: 8px; */
+  line-height: 1.8em;
+  color: rgb(255, 255, 255);
+  margin-left: 1140px;
+  margin-top: 54px;
+}
+.giftCard {
+  margin: 0;
+  background-color: #f2f2f7;
+  /* background-image: url(mockup1.png); */
+  height: 1400px;
+  /* background-repeat: no-repeat; */
+  font-family: "PT Sans", sans-serif;
+}
+#giftCardImg {
+  float: left;
+  width: 50%;
+  padding-left: 500px;
+  padding-top: 50px;
+}
+#giftCardH2 {
+  /* float: right; */
+  margin: 0;
+  padding-top: 100px;
+  font-size: 80px;
+  color: rgb(7, 0, 0);
+  /* text-align: center; */
+  font-family: "PT Sans", sans-serif;
+}
+#giftCardPara {
+  /* display: block; */
+  /* text-align: left; */
+  font-size: 50px;
+
+  padding-left: 50px;
+  /* width: 50%; */
+  /* height: 0px; */
+
+  /* height: 8px; */
+  line-height: 1.2em;
+  color: rgb(19, 1, 1);
+  /* margin-left: 1140px; */
+  /* margin-top: 54px; */
+}
+#giftCardsSmallPara {
+  display: block;
+  text-align: left;
+  font-size: 50px;
+  /* padding-top: 50px; */
+  /* width: 50%; */
+  /* height: 0px; */
+
+  /* height: 8px; */
+  line-height: 1.2em;
+  color: rgb(19, 1, 1);
+  padding-top: 50px;
+  /* margin-left: 1140px; */
+  /* margin-top: 54px; */
+}
+#giftCardsBtn {
+  border: none;
+  text-decoration: none;
+  font-size: 50px;
+  padding-top: 40px;
+}
+#foot {
+  background-color: #252529;
+  color: #fff;
+  font-size: 50px;
+  height: 700px;
+  margin: 0;
+
+}
+footer ul {
+  color: #fff;
+  list-style: none;
+
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  margin-bottom: 0px;
+}
+footer ul li {
+  color: #fff;
+  font-size: 40px;
+  font-family: "PT Sans", sans-serif;
+  padding: 10px;
+  padding-left: 400px;
+}
+footer h3 {
+  font-size: 50px;
+  font-family: "PT Sans", sans-serif;
+  padding-left: 400px;
+  padding-top: 30x;
+}
+#list {
+  display: block;
+  padding-left: 500px;
+  padding-right: 200px;
+  margin: 0;
+  
+}
+#listHR {
+  width: 80%;
+  opacity: 0.2;
+  position: relative;
+  left: 320px;
+}
+#copy {
+  margin: 0;
+  background-color: #333;
+  height: 150px;
+}
+#copyPara {
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  padding-top: 35px;
+}
